@@ -1,0 +1,22 @@
+.error-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.error-indicator__picture {
+  width: 600px;
+  height: 430px;
+}
+
+.error-indicator__text {
+  margin-bottom: 14px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fd311f;
+}
+
+.error-indicator__picture {
+  border-radius: 8px;
+}

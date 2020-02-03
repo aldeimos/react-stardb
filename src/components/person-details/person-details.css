@@ -1,0 +1,43 @@
+.person-details {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+
+  background-color: var(--secondary);
+  border-radius: 8px;
+}
+
+.person-details__picture {
+  width: 250px;
+  height: 350px;
+  margin-right: 7%;
+
+  border-radius: 8px;
+}
+
+.person-details__wrapper {
+  flex-grow: 1;
+}
+
+.person-details__name {
+  margin-bottom: 14px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.person-details__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.person-details__item {
+  padding: 5px 15px;
+  border-top: 2px solid var(--gray-dark);
+}
+
+.person-details__item:last-child {
+  border-bottom: 2px solid var(--gray-dark);
+}

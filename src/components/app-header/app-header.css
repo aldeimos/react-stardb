@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header__logo {
+  width: 25%;
+  margin: 0;
+  font-size: 48px;
+  line-height: 32px;
+
+  font-weight: bold;
+}
+
+.header__nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.header__nav {
+  width: 75%;
+}
+
+.header__nav-link {
+  display: block;
+  padding: 20px;
+
+  font-weight: bold;
+}
